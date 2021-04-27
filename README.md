@@ -1,7 +1,7 @@
 # questionary-client-js-validator
 
 This is a Client Js validator to radio questionaries.
-For use it follow the steps.
+To use it follow the steps.
 
 The questions need to be contained in a div. Like the exemple:
 ------
