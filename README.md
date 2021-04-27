@@ -10,7 +10,7 @@ The questions need to be contained in a div. Like the exemple:
 ```
 The id needs to follow this pattern 'question-(number)'
 
-For all radios with a complement textarea, it is required to add the following atribute
+For all radios with a complement textarea, it is required to add the following attribute
 ------
 data-complement="/your-choice-name/"
 
