@@ -1,14 +1,14 @@
 # questionary-client-js-validator
 
 This is a Client Js validator to radio questionaries.
-For use it following the steps.
+For use it follow the steps.
 
-The questions need to be contained with a div. Like the exemple:
+The questions need to be contained in a div. Like the exemple:
 ------
 ```html
 <div class="o-form-opinion__group--items" id="question-1"></div>
 ```
-The id need to follow the this pattern question-(number)
+The id needs to follow this pattern 'question-(number)'
 
 For all radios with a complement textarea, it is required to add the following atribute
 ------
