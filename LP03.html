@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Javascript validator questionary exemple</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="c-header"></header>
+    <section class="c-main">
+        <div class="o-form__content">
+            <h1>JS client validator questionary </h1>
+            <form method="POST" class="o-form-opinion" action="https://mktgetnet.com.br/pub/rf" id="form-sac">
+                <section class="o-form-opinion__group">
+                    <hr />
+                    <p class="o-form__question"><span>01.</span> What's your favorite <strong>actor/actress</strong>?</p>
+
+                    <div class="o-form-opinion__group--items" id="question-1">
+                        <div>
+                            <label for="actor01">
+                                <span>Leonardo Dicaprio</span>
+                                <input type="radio" value="Leonardo Dicaprio" name="actor" id="actor01" data-placement="bottom" data-trigger="manual" />
+                            </label>                             
+                        </div>
+                        <div>
+                            <label for="actor02">
+                                <span>Brad Pitt</span>
+                                <input type="radio" value="Brad Pitt" name="actor" id="actor02" data-placement="bottom" data-trigger="manual" />
+                            </label>     
+                        </div>
+                        <div>
+                            <label for="actor03">
+                                <span>T.Hanks</span>
+                                <input type="radio" value="T.Hanks" name="actor" id="actor04" data-placement="bottom" data-trigger="manual" />
+                            </label>    
+                        </div>
+                        <div>
+                            <label for="actor04">
+                                <span>Will Smith</span>
+                                <input type="radio" value="Will Smith" name="actor" id="actor05" data-placement="bottom" data-trigger="manual" />
+                            </label>    
+                        </div>
+                        <div>
+                            <label for="actor05">
+                                <span>Other</span>
+                                <input type="radio" value="Other" name="actor" id="actor03" data-placement="bottom" data-trigger="manual" data-complement="question-5-actor"/>
+                            </label>
+                            <div class='o-form-opinion__group--hidden-item'>
+                                <label for="actor05-textarea">
+                                    <span>Which one? </span>
+                                    <input type="textarea" value="" name="actor" class='js-complement' id="question-5-actor" data-placement="bottom" data-trigger="manual" />
+                                </label>   
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="o-form__question"><span>02.</span> What's your favorite <strong>Fantasy</strong> movie?</p>
+
+                    <div class="o-form-opinion__group--items" id="question-2">
+                        <div>
+                            <label for="movie1">
+                                <span>Star Wars</span>
+                                <input type="radio" value="1" name="movie" id="movie1" data-placement="bottom" data-trigger="manual" />
+                            </label>                             
+                        </div>
+                        <div>
+                            <label for="movie2">
+                                <span>Indiana Jones</span>
+                                <input type="radio" value="2" name="movie" id="movie2" data-placement="bottom" data-trigger="manual" />
+                            </label>     
+                        </div>
+                        <div>
+                            <label for="movie3">
+                                <span>Harry Potter</span>
+                                <input type="radio" value="3" name="movie" id="movie3" data-placement="bottom" data-trigger="manual" />
+                            </label>    
+                        </div>
+                        <div>
+                            <label for="movie4">
+                                <span>Lord of the rings</span>
+                                <input type="radio" value="4" name="movie" id="movie4" data-placement="bottom" data-trigger="manual" />
+                            </label>    
+                        </div>
+                        <div>
+                            <label for="movie5">
+                                <span>Other:</span>
+                                <input type="radio" value="5" name="movie" id="movie5" data-placement="bottom" data-trigger="manual" data-complement="question-5-movie" />
+                            </label>   
+                        </div>
+                        <div class='o-form-opinion__group--hidden-item'>
+                            <label for="movie5textarea">
+                                <span>Which one? </span>
+                                <input type="textarea" value="" name="movie" class='js-complement' id="question-5-movie" data-placement="bottom" data-trigger="manual" />
+                            </label>   
+                        </div>
+                    </div>
+
+                    <p class="o-form__question"><span>02.</span> What's your favorite <strong>kind</strong> of Song?</p>
+
+                    <div class="o-form-opinion__group--items" id="question-3">
+                        <div>
+                            <label for="music1">
+                                <span>Rock</span>
+                                <input type="radio" value="Rock" name="music" id="music1" data-placement="bottom" data-trigger="manual" />
+                            </label>                             
+                        </div>
+                        <div>
+                            <label for="music2">
+                                <span>Jazz</span>
+                                <input type="radio" value="Jazz" name="music" id="music2" data-placement="bottom" data-trigger="manual" />
+                            </label>     
+                        </div>
+                        <div>
+                            <label for="music3">
+                                <span>Lo-Fi</span>
+                                <input type="radio" value="Lo-Fi" name="music" id="music3" data-placement="bottom" data-trigger="manual" />
+                            </label>    
+                        </div>
+                        <div>
+                            <label for="music4">
+                                <span>Pop</span>
+                                <input type="radio" value="Pop" name="music" id="music4" data-placement="bottom" data-trigger="manual" />
+                            </label>    
+                        </div>
+                        <div>
+                            <label for="music5">
+                                <span>Other:</span>
+                                <input type="radio" value="5" name="music" id="music5" data-placement="bottom" data-trigger="manual" data-complement="question-5-music" />
+                            </label>   
+                        </div>
+                        <div class='o-form-opinion__group--hidden-item'>
+                            <label for="music5textarea">
+                                <span>Which one? </span>
+                                <input type="textarea" value="" name="music" class='js-complement' id="question-5-music" data-placement="bottom" data-trigger="manual" />
+                            </label>   
+                        </div>
+                    </div>
+                    <hr />
+                </section>
+
+                <section class="o-form-opinion__group">
+                    <div class="js-validate-btn">
+                        <input type="submit" name="ENVIAR" id="ENVIAR" data-placement="bottom" data-trigger="manual" value="Enviar Agora">
+                    </div>
+                    <div class="js-alert"></div>
+                </section>
+            </form>      
+        </div>
+    </section>
+    <footer id="c-footer">
+        <script src="js/main.js"></script>
+    </footer>
+</body>
